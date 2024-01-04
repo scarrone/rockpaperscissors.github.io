@@ -1,0 +1,41 @@
+body{
+    background-color: beige;
+}
+
+h3, h1, p, h2{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 10px;
+    text-wrap: nowrap;
+    font-size: 60px;
+}
+
+button:hover{
+background-color: chocolate;
+}
+
+button:active{
+    border-style: inset;
+}
+
+.scores{
+    background-color: chocolate;
+}
+
+#buttonDiv{
+    position: absolute;
+    left: 40%
+}
+
+#clearDiv{
+    position: absolute;
+    top: 70%
+
+}
